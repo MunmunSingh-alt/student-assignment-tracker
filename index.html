@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Assignment Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="home">
+        <h1>Student Task Tracker</h1>
+        <h2>Manage Your Assignments</h2>
+    </header>
+
+    <section id="nav">
+        <nav>
+            <a href="#home"> Home </a>
+            <a href="#assignment"> Assignments </a>
+        </nav>
+    </section>
+
+    <main>
+    <section id="assignment" class="stats-container">
+        <div class="stat-card">
+            <p>Total Assignments</p>
+            <strong>11</strong>
+        </div>
+
+        <div class="stat-card">
+            <p>Completed</p>
+            <strong>5</strong>
+        </div>
+
+        <div class="stat-card">
+            <p>Pending</p>
+            <strong>6</strong>
+        </div>
+    </section>
+
+    <section class="table-container">
+        <table>
+            <caption>Assignment List</caption>
+           <thead>
+                <tr>
+                    <th>Subject</th>
+                    <th>Assignment</th>
+                    <th>Due Date</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Mathematics</td>
+                    <td>Chapter 1 Exercises</td>
+                    <td>30-Oct-2026</td>
+                    <td>Pending</td>
+                </tr>
+            </tbody>
+        </table>    
+    </section>
+
+    <section id="deadlines">
+        <h2>Upcoming Deadlines</h2>
+        <ul>
+            <li>Mathematics — Chapter 1 Exercises — 30 October 2026</li>
+            <li>English — Essay Writing — 31 October 2026</li>
+            <li>Computer Science — HTML Practical — 2 November 2026</li>
+        </ul>
+    </section>    
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Student Task Tracker</p>
+    </footer>
+</body>
+</html>
